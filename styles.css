@@ -1,0 +1,55 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background: hsl(30, 38%, 92%);
+}
+
+.picture {
+    flex: 1;
+    overflow: hidden;
+    border-radius: 20px 0 0 20px;
+}
+
+.picture img {
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+.text {
+    display: flex;
+    flex: 1;
+    padding: 20x;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 60rem;
+    margin: 0 auto;
+    background: hsl(0, 0%, 100%);
+
+}
+
+.price-container {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    margin-bottom: 10px;
+
+}
+
+.actprice {}
